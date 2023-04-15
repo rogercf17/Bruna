@@ -89,6 +89,7 @@ button a:hover{
     }
 
     h3{
+        padding-top: 5%;
         font-size: 1rem;
     }
 
@@ -99,7 +100,7 @@ button a:hover{
 
     .botao{
         position: relative;
-        left: 11%;
+        left: 11.5%;
     }
 
     button{
