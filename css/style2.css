@@ -3,7 +3,6 @@
 *{
     margin: 0;
     padding: 0;
-    overflow-y: hidden;
 }
 
 :root{
@@ -85,6 +84,7 @@ button a:hover{
 
     .conteiner{
         margin: 2% auto 2% auto;
+        width 50vw;
         height: 50vh;
     }
 
