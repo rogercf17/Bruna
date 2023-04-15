@@ -25,7 +25,7 @@ body{
 }
 
 .conteudo{
-    padding: 0% 15%;
+    padding: 5% 15%;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -88,7 +88,7 @@ button a:hover{
     }
 
     .conteudo{
-        padding-top: 40%;
+        padding-top: 10%;
         justify-items: center;
         align-items: center;
     }
