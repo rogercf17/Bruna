@@ -95,7 +95,7 @@ button a:hover{
 
     .conteiner{
         margin: 5% 5% 5% 8%;
-        gap: 80px;
+        gap: 100px;
     }
 
     .introducao{
@@ -114,7 +114,7 @@ button a:hover{
         border: none;
         border-radius: 10px;
         background-color: var(--cor-terciaria);
-        width: 300px;
+        width: 50vw;
         height: 80px;
         cursor: pointer;
     }
