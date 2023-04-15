@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+
+:root{
+    --cor-principal: #C953E7;
+    --cor-secundaria: #DC8AF0;
+    --cor-terciaria: #790596;
+    --cor-branca: #FFFFFF;
+    --cor-preta: rgb(31, 31, 31);
+    
+    --font-principal: 'Alkatra', cursive;
+    --font-secundaria: 'Kanit', sans-serif;
+}
+
+body{          
+    /* background-image: radial-gradient(circle, #C953E7 40%, #8d30a4 10%, #531165 50%);
+    background-repeat: no-repeat; */
+    background-color: #531165;
+    font-family: var(--font-principal);
+}
+
+.conteudo{
+    padding: 5% 30%;
+    align-items: center;
+}
+
+.conteiner{
+    text-align: center;
+    padding: 4% 4% 0% 4%;
+    width: 664px;
+    height: 699px; 
+    background-color: #C953E7;
+    font-size: 1.25rem;
+}
+
+.botao{
+    padding-top: auto;
+}
+
+button{
+    border: none;
+    border-radius: 10px;
+    background-color: var(--cor-terciaria);
+    width: 220px;
+    height: 70px;
+    cursor: pointer;
+}
+
+button a{
+    font-family: var(--font-secundaria);
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: var(--cor-branca);
+}
+
+button:hover{
+    border: 1px solid var(--cor-principal);
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+button a:hover{
+    color: var(--cor-preta);
+    transition: 0.5s;
+}
+
+@media(max-width: 1023px){
+    body{
+        box-sizing: border-box;
+    }
+
+    .conteudo{
+        overflow: hidden;
+        padding-top: 30%;
+        right: 12.5%;
+        /* padding-right: 50%; */
+        position: relative;
+        align-items: center;
+    }
+
+    .conteiner{
+        margin: 2% auto 2% auto;
+        height: 50vh;
+    }
+
+    h3{
+        font-size: 2rem;
+    }
+
+    p{
+        font-size: 1.4rem;
+        letter-spacing: 1px;
+    }
+
+    .botao{
+        position: relative;
+        left: 46.5%;
+    }
+
+    button{
+        border: none;
+        border-radius: 10px;
+        background-color: var(--cor-terciaria);
+        width: 300px;
+        height: 80px;
+        cursor: pointer;
+    }
+    
+    button a{
+        font-family: var(--font-secundaria);
+        font-size: 2.5rem;
+        text-decoration: none;
+        color: var(--cor-branca);
+    }
+    
+    button:hover{
+        border: 1px solid var(--cor-principal);
+        opacity: 0.5;
+        transition: 0.5s;
+    }
+    
+    button a:hover{
+        color: var(--cor-preta);
+        transition: 0.5s;
+    }
+}
