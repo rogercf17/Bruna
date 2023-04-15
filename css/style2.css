@@ -71,6 +71,7 @@ button a:hover{
 @media(max-width: 1023px){
     body{
         box-sizing: border-box;
+        overflow-x: hidden;
     }
 
     .conteudo{
@@ -84,7 +85,7 @@ button a:hover{
     .conteiner{
         margin-right: 30%;
         width: 80vw;
-        height: 50vh;
+        height: 80vh;
     }
 
     h3{
