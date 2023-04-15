@@ -123,7 +123,7 @@ button a:hover{
 
 @media(max-width: 1023px){
     .conteiner-header{
-        padding-right: 50%;
+        padding-left: 90%;
         
         padding-top: 5%;
         display: flex;
